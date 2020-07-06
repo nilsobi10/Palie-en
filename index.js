@@ -1,7 +1,6 @@
-var person = prompt("Please enter your name");
+var person = prompt("Geben Sie bitte ihren Namen ein!");
 
 if (person == null || person == "") {
-  txt = "User cancelled the prompt.";
-} else {
-  txt = "Hello " + person + "! How are you today?";
+  txt = "Der Nutzer hat keine Eingabe eingegeben";
+} else { alert( "Hallo " + person + "! Wie geht es Ihnen heute??");
 }
