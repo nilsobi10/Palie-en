@@ -1,2 +1,3 @@
-if ( document.getElementById('vname') <=3 ) {alert("Hallo Nils" );
-} 
+<input type="text" name="vorname" id="vorname">
+
+let msg = document.querySelector("#vorname").value;
