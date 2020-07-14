@@ -13,7 +13,21 @@
     
 
 <input type="text" name="vorname" id="vorname">  
-
+    
+    
+<div class="formitem">
+		<textarea placeholder="Text eingeben und Auslesen" name="justtext" id="justtext" rows="4"></textarea> 
+		<button id="textarea" type="button">Auslesen</button>
+		<div class="textarea-msg">n</div>
+	</div>
+    
+    <script>
+	document.querySelector('#textarea').onclick = function () {
+		document.querySelector('.textarea-msg').innerHTML = document.querySelector("#justtext").value;
+	}
+        
+        
+</script>
     
 <br>
 
