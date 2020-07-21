@@ -17,15 +17,12 @@ var argument = prompt("Wie geht es Ihnen? ");!
 
 
 
-if 
-
-
-(argument== !"")
-{alert("Keine Eingabe");
+if(!argument)
+{alert("Keine Eingabe")
   
 }
     
-    
+   
     
     else{alert("Info: Ihr Name lautet " + person +" und Ihnen geht es "+ argument+ " !" )
   };
