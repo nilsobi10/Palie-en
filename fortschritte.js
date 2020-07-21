@@ -17,7 +17,7 @@ var argument = prompt("Wie geht es Ihnen? ");!
 
 
 
-if(!argument)
+if(!!argument)
 {alert("Keine Eingabe")
   
 }
