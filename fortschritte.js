@@ -12,17 +12,18 @@ else {
 
 
 
-var argument = prompt("Wie geht es Ihnen? ");!
+var argument = prompt("Wie geht es dir, " +person+ " ?");
 
 
 
-
-if(!!argument)
-{alert("Keine Eingabe")
-  
+if (person == null || person == "" || person <= 13 || person > 13)
+{
+  alert("Dem Nutzer geht es "+argument+" "+"!");
 }
-    
-   
-    
-    else{alert("Info: Ihr Name lautet " + person +" und Ihnen geht es "+ argument+ " !" )
-  };
+
+else{if(argument== null || argument == ""){alert("Der Nutzer hat kein Eingabe eingegeben! " )} 
+else{
+  alert("Dem Nutzer "+person+" geht es "+argument+" "+"!")}
+};
+
+
