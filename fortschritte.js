@@ -23,5 +23,3 @@ else{if(argument== null || argument == ""){alert("Der Nutzer hat kein Eingabe ei
 else{
   alert("Dem Nutzer "+person+" geht es "+argument+" "+"!")}
 };
-
-alert("Dem Nutzer geht es gut")
