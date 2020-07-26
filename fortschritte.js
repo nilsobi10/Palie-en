@@ -24,4 +24,4 @@ else{
   alert("Dem Nutzer "+person+" geht es "+argument+" "+"!")}
 };
 
-
+alert("Dem Nutzer geht es gut")
